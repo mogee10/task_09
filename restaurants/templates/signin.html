@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
 
-{% block title %}Create{% endblock title %}
+{% block title %}Sign In{% endblock title %}
 
 {% block content %}
     
 <br>
 <div class="card">
-  <h5 class="card-header">Create Restaurant</h5>
+  <h5 class="card-header">Sign In</h5>
   <div class="card-body">
     <p class="card-text">
         <form action="{% url 'restaurant-create' %}" method="POST" enctype="multipart/form-data">
